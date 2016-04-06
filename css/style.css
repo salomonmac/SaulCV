@@ -1,0 +1,39 @@
+
+.contorno {
+    border: 3px dashed #119cd7;
+    padding: 20px;
+}
+
+body{
+    margin-top: 10px;;
+}
+
+
+.espacio {
+    padding: 5px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+
+}
+
+
+
+.color-b {
+    background: #5e3e81;
+}
+
+.color-js {
+    background: #faa306;
+}
+
+.color-css3 {
+    background: #0071bf;
+}
+
+.color-html5 {
+    background: #fe4c1e;
+}
+
+.sp-bar {
+    margin-top: 50px;
+}
