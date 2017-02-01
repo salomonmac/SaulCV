@@ -34,3 +34,15 @@
 #contacto img{
     width: 2em;
 }
+.navegacion button{
+    color: black;
+    font-size: 2em;
+    position: fixed;
+    background: white;
+    border-radius: 50px;
+}
+#sobre-mi{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+

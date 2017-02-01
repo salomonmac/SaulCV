@@ -3,6 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Saul Ramirez C.V.</title>
+	<meta name="description" content="Contiene un CV de Saul Ramirez donde enseña todas mis habilidades y proyectos">
+    <meta name="author" content="Saul Salomon Ramirez Zuñiga">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
@@ -13,9 +15,11 @@
     <header class="container-fluid" id="redes">
        <div class="col-lg-8 col-md-7 col-sm-5 col-xs-12">
         <ul>
-            <li><a href="https://www.linkedin.com/in/sa%C3%BAl-salom%C3%B3n-ram%C3%ADrez-z%C3%BA%C3%B1iga-01a145a7/"><img src="img/social-linkedin.png" alt="LinkedIn" class="img img-responsive"></a></li>
-            <li><a href="https://github.com/salomonmac"><img src="img/social-github.png" alt="GitHub" class="img img-responsive"></a></li>
-            <li><a href="https://www.facebook.com/saulsalomon.ramirezzuniga"><img src="img/social-facebook.png" alt="FaceBook" class="img img-responsive"></a></li>
+            <a href="https://www.linkedin.com/in/sa%C3%BAl-salom%C3%B3n-ram%C3%ADrez-z%C3%BA%C3%B1iga-01a145a7/"><li><img src="img/social-linkedin.png" alt="LinkedIn" class="img img-responsive"></li></a>
+            
+            <a href="https://github.com/salomonmac"><li><img src="img/social-github.png" alt="GitHub" class="img img-responsive"></li></a>
+            
+            <a href="https://www.facebook.com/saulsalomon.ramirezzuniga"><li><img src="img/social-facebook.png" alt="FaceBook" class="img img-responsive"></li></a>
         </ul>
         </div>
         <div class="col-lg-4 col-md-5 col-sm-7 col-xs-12 text-right hidden-xs">
@@ -48,7 +52,15 @@
     </header>
     <div class="container-fluid" id="inicio">
        <div class="col-md-12 espacio">
-        <div class="col-md-3"></div>
+        <div class="col-md-3 hidden-xs">
+            <div class="navegacion menu">
+            <div class="col-md-12">
+                <button type="button" class="btn btn-link" data-toggle="modal" data-target="#myModal" aria-label="Left Align">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span> 
+                </button>
+            </div>
+        </div>
+        </div>
         <div class="col-md-6">
             <img src="img/saul-ramirez.jpg" alt="Saul Salomon Ramirez Zuñiga" class="img img-responsive img-circle">
             <h1 class="text-center">Saúl Ramírez</h1>
@@ -65,11 +77,52 @@
             </a>
             
         </div>
-    </div>	
+    </div>	                             
     <section>
-        
+        <div class="container" id="sobre-mi">
+            <div class="col-md-6 col-sm-6">
+                <h1>Sobre mi</h1>
+                <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis eveniet a, sequi aliquid dicta facilis laboriosam consequatur quos perferendis velit quidem cupiditate quae. Maxime facere in animi? Harum, quibusdam, aperiam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat similique numquam voluptatibus ipsa recusandae distinctio possimus voluptatem suscipit soluta facilis, voluptatum porro, illum fugit quos esse voluptas eveniet excepturi sequi.</p>
+                br*100
+            </div>
+            <div class="col-md-6 col-sm-6">
+                <img src="img/fondo.jpg" alt="Sobre mi" class="img img-responsive">
+            </div>
+        </div>
     </section>
-    
+    <footer></footer>
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h1 class="modal-title" id="myModalLabel"></h1>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>
+                            <a href="index.html"><h1>INICIO</h1></a>
+                        </li>
+                        <li>
+                            <a href="#sobremi"><h1>¿QUIÉN?</h1></a>
+                        </li>
+                        <li>
+                            <a href="#habilidades"><h1>HABILIDADES</h1></a>
+                        </li>
+                        <li>
+                            <a href="#proyectos"><h1>PROYECTOS</h1></a>
+                        </li>
+                        <li>
+                            <a href="#contacto"><h1>CONTACTO</h1></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+
+                </div>
+            </div>
+        </div>
+    </div>
 
 	<script src="js/jquery.js"></script>
 	<script src="js/bootstrap.min.js"></script>
