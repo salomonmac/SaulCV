@@ -5,24 +5,71 @@
 	<title>Saul Ramirez C.V.</title>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/grid.css">
 </head>
 <body>
-    <header class="container-fluid" id="redes"></header>
+    <header class="container-fluid" id="redes">
+       <div class="col-lg-8 col-md-7 col-sm-5 col-xs-12">
+        <ul>
+            <li><a href="https://www.linkedin.com/in/sa%C3%BAl-salom%C3%B3n-ram%C3%ADrez-z%C3%BA%C3%B1iga-01a145a7/"><img src="img/social-linkedin.png" alt="LinkedIn" class="img img-responsive"></a></li>
+            <li><a href="https://github.com/salomonmac"><img src="img/social-github.png" alt="GitHub" class="img img-responsive"></a></li>
+            <li><a href="https://www.facebook.com/saulsalomon.ramirezzuniga"><img src="img/social-facebook.png" alt="FaceBook" class="img img-responsive"></a></li>
+        </ul>
+        </div>
+        <div class="col-lg-4 col-md-5 col-sm-7 col-xs-12 text-right hidden-xs">
+                <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myContacto"><span><img src="img/lightbulb.png" alt="Contratame"></span><strong> Contactame</strong></button>
+            <a href="pdf/saulcv.pdf">
+            <button type="submit" class="btn btn-default"><span><img src="img/download.png" alt="Contratame"></span><strong> Descarga mi CV</strong></button>
+            </a>
+            
+        </div>
+        <!-- Modal -->
+            <div class="modal fade" id="myContacto" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h1 class="modal-title" id="myModalLabel">Saúl Salomón Ramírez Zúñiga</h1>
+                  </div>
+                  <div class="modal-body">
+                    <ul>
+                        <li><strong>Dirección:</strong> José de Escandón #29, Circuito Fundadores, Ciudad Satélite, C.P. 53100, Naucalpan de Juárez, Estado de México</li><br>
+                        <li><strong>Edad:</strong> 22</li><br>
+                        <li><strong>Celular:</strong> 044 55-6706-1446</li><br>
+                        <li><strong>E-mail:</strong> geforcesalomonti@gmail.com</li><br>
+                        <li><strong>Web: <a href="http://salomonmac.github.io/SaulCV/">salomonmac.github.io/SaulCV/</a></strong></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+    </header>
     <div class="container-fluid" id="inicio">
        <div class="col-md-12 espacio">
         <div class="col-md-3"></div>
         <div class="col-md-6">
             <img src="img/saul-ramirez.jpg" alt="Saul Salomon Ramirez Zuñiga" class="img img-responsive img-circle">
-            <h1 class="text-center">Saul Ramirez</h1>
+            <h1 class="text-center">Saúl Ramírez</h1>
             <h2 class="text-center"><strong>Full Stack Developer</strong></h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis ipsa, fuga molestiae nam necessitatibus excepturi aperiam, sit omnis et, quo voluptates temporibus voluptatibus officiis commodi officia quaerat possimus. Modi, recusandae.</p>
+            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis ipsa, fuga molestiae nam necessitatibus excepturi aperiam, sit omnis et.</p>
             
         </div>
         <div class="col-md-3"></div>
         </div>
+        <div class="col-xs-12 text-center visible-xs-block">
+                <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myContacto"><strong> Contactame</strong></button>
+            <a href="pdf/saulcv.pdf">
+            <button type="submit" class="btn btn-default"><span></span><strong> Descarga mi CV</strong></button>
+            </a>
+            
+        </div>
     </div>	
-    <section></section>
+    <section>
+        
+    </section>
+    
 
 	<script src="js/jquery.js"></script>
 	<script src="js/bootstrap.min.js"></script>

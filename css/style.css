@@ -1,11 +1,36 @@
-
+*{
+    font-family: 'Raleway', sans-serif;
+}
 #inicio {
-    background: url(../img/fondo.jpg);
+    background-image: url(../img/fondo.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    padding: 4.2em;
+    padding-top: 16em;
     padding-bottom: 13.2em;
-    margin-top: -5em;
+    color: white;
+    margin-top: -10em;
+}
+#inicio img{
+    width: 35%;
+    margin-left: 33%;
+}
+#redes ul li {
+    list-style: none;
+    display: inline-block;
+}
+#redes{
+    margin-top: 1em;
+}
+#redes button{
+    background: rgba(255, 255, 255, 0);
+    color: white;
+}
+#redes button span img{
+    width: 2.7em;
+    margin-right: 1em;
+}
+#contacto img{
+    width: 2em;
 }

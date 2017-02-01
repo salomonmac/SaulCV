@@ -1,0 +1,72 @@
+@media screen and (min-width: 1440px) {
+     #inicio h1{
+    font-size: 6em;
+}
+}
+@media screen and (min-width: 1440px) {
+     #inicio h2{
+    font-size: 2.5em;
+}
+}
+@media screen and (min-width: 1440px) {
+     #inicio p{
+    font-size: 1.2em;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 900px) {
+     #inicio img{
+    width: 22%;
+    margin-left: 39%;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 900px) {
+     #inicio h2{
+    font-size: 2em;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 900px) {
+     #inicio .espacio{
+    margin-top: -3em;
+         margin-bottom: -7em;
+}
+}
+@media screen and (min-width: 320px) and (max-width: 500px) {
+     #inicio{
+    margin-top: -20em;
+}
+}
+@media screen and (min-width: 320px) and (max-width: 500px) {
+     #redes ul{
+         text-align: center;
+         padding-left: 0em;
+}
+}
+@media screen and (min-width: 320px) and (max-width: 500px) {
+     #inicio img{
+    width: 50%;
+    margin-left: 25%;
+}
+}
+@media screen and (min-width: 320px) and (max-width: 500px) {
+     #inicio h2{
+    font-size: 1.5em;
+}
+}
+@media screen and (min-width: 320px) and (max-width: 500px) {
+     #inicio button{
+    background: rgba(255, 255, 255, 0);
+    color: white;
+         margin: .2em;
+}
+}
+@media screen and (min-width: 320px) and (max-width: 500px) {
+     #inicio button img{
+    width: 18%;
+}
+}
+@media screen and (min-width: 320px) and (max-width: 500px) {
+     #inicio button strong{
+    font-size: 1.5em;
+}
+}
+
