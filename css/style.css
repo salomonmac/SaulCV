@@ -2,7 +2,7 @@
     font-family: 'Raleway', sans-serif;
 }
 #inicio {
-    background-image: url(../img/fondo.jpg);
+    background-image: url(../img/inicio.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -46,7 +46,7 @@
     margin-bottom: 2em;
 }
 #habilidades {
-    background-image: url(../img/teclado.jpg);
+    background-image: url(../img/habilidades-3.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -61,3 +61,8 @@
 #habilidades img{
     width: 48px;
 }
+#educacion{
+    padding-bottom: 4em;
+    padding-top: 4em;
+}
+
