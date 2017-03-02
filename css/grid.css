@@ -84,3 +84,8 @@
     padding-top: 4em;
 }
 }
+@media screen and (min-width: 1024px) {
+     #habilidades h1{
+    font-size: 5em;
+}
+}

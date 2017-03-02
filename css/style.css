@@ -45,4 +45,19 @@
     margin-top: 2em;
     margin-bottom: 2em;
 }
-
+#habilidades {
+    background-image: url(../img/teclado.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    margin-top:2em;
+    color: white;
+}
+#habilidades h1{
+    margin-bottom: 1em;
+}
+#habilidades img{
+    width: 48px;
+}
