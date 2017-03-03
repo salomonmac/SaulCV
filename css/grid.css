@@ -89,3 +89,8 @@
     font-size: 5em;
 }
 }
+@media screen and (min-width: 1024px) {
+     #trabajo h1{
+    font-size: 4em;
+}
+}

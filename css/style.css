@@ -65,4 +65,24 @@
     padding-bottom: 4em;
     padding-top: 4em;
 }
+#educacion span{
+    color: #848484;
+}
+#trabajo{
+    background-image: url(../img/trabajo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:5em;
+    margin-top:2em;
+    color: white;
+    margin-bottom: 2em;
+}
+#trabajo .panel{
+    background: rgba(255, 255, 255, 0);
+}
+#trabajo a{
+    margin-right: 5em; 
+    
+}
 
