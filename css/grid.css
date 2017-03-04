@@ -94,3 +94,14 @@
     font-size: 4em;
 }
 }
+@media screen and (min-width: 1124px) {
+     #trabajo a{
+    margin-right: 3em; 
+    
+}
+}
+@media screen and (min-width: 1024px) and (max-width: 1123px) {
+     #sobre-mi img{
+    padding-top: 1em;
+}
+}
