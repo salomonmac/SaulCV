@@ -2,7 +2,7 @@
     font-family: 'Raleway', sans-serif;
 }
 #inicio {
-    background-image: url(../img/inicio.jpg);
+    background-image: url(../img/inicio.png);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -46,7 +46,7 @@
     margin-bottom: 2em;
 }
 #habilidades {
-    background-image: url(../img/habilidades-3.jpeg);
+    background-image: url(../img/habilidades.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -69,7 +69,7 @@
     color: #848484;
 }
 #trabajo{
-    background-image: url(../img/trabajo.jpg);
+    background-image: url(../img/trabajo.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
