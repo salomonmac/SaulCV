@@ -81,5 +81,12 @@
 #trabajo .panel{
     background: rgba(255, 255, 255, 0);
 }
-
-
+#testimonio {
+    margin-bottom: 2em;
+}
+#testimonio img{
+    width: 14em;
+}
+#testimonio span{
+    color: #848484;
+}
