@@ -90,3 +90,37 @@
 #testimonio span{
     color: #848484;
 }
+#portafolio h1{
+    font-size: 5em;
+}
+#portafolio img{
+    padding-bottom: 4em;
+}
+#portafolio p{
+    margin-bottom: 3em;
+}
+#contacto{
+    background-image: url(../img/contacto.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:5em;
+    margin-top:2em;
+    color: white;
+}
+#contacto h1{
+    font-size: 4em;
+}
+#contacto textarea{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 26em;
+}
+#contacto .form-group{
+    padding-bottom: 1em;
+}
+#contacto ul li{
+    list-style: none;
+}
+
+
